@@ -62,23 +62,22 @@ El análisis integra cuatro datasets:
 * df\_web1 y df\_web2 → Eventos web (interacciones por visita)
 * df\_demo → Información demográfica y financiera del cliente
 
-Variables clave utilizadas:
-
-Variable,Descripción
-client_id,Identificador único del cliente
-Variation,Grupo experimental (Control / Test)
-process_step,Paso del proceso online
-date_time,Marca de tiempo de la interacción
-clnt_age,Edad del cliente
-bal,Balance de cuenta
-logons_6_mnth,Inicio de sesión en los últimos 6 meses
+**Variables clave utilizadas:**
+| Variable | Descripción |
+|----------|-------------|
+| `client_id` | Identificador único del cliente |
+| `Variation` | Grupo experimental (Control / Test) |
+| `process_step` | Paso del proceso online |
+| `date_time` | Marca de tiempo de la interacción |
+| `clnt_age` | Edad del cliente |
+| `bal` | Balance de cuenta |
+| `logons_6_mnth` | Inicio de sesión en los últimos 6 meses |
 
 Los datos fueron limpiados para:
-
-* Eliminar duplicados
-* Estandarizar client\_id
-* Eliminar valores nulos críticos
-* Filtrar visitas válidas (que comienzan en “start”)
+- Eliminar duplicados
+- Estandarizar `client_id`
+- Eliminar valores nulos críticos
+- Filtrar visitas válidas (que comienzan en “start”)
 
 ## Preguntas de Investigación
 
