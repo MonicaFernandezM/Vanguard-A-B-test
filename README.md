@@ -64,13 +64,14 @@ El análisis integra cuatro datasets:
 
 Variables clave utilizadas:
 
-* client\_id
-* Variation (Control/Test)
-* process\_step
-* date\_time
-* clnt\_age
-* bal
-* logons\_6\_mnth
+Variable,Descripción
+client_id,Identificador único del cliente
+Variation,Grupo experimental (Control / Test)
+process_step,Paso del proceso online
+date_time,Marca de tiempo de la interacción
+clnt_age,Edad del cliente
+bal,Balance de cuenta
+logons_6_mnth,Inicio de sesión en los últimos 6 meses
 
 Los datos fueron limpiados para:
 
