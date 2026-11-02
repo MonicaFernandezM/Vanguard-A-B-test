@@ -15,19 +15,23 @@ El objetivo principal es determinar si el rediseño mejora el rendimiento del pr
 
 ## Tabla de Contenidos
 
+* [Descripción](#descripción)
 * [Instalación](#instalación)
 * [Uso](#uso)
 * [Dataset](#dataset)
 * [Preguntas de Investigación](#preguntas-de-investigación)
 * [Análisis](#análisis)
 * [Resultados](#resultados)
+* [Conclusiones](#conclusiones)
 * [Evaluación del Experimento](#evaluacion-del-experimento)
-* [Contribución](#contribución)
+* [Contribución](#contribución
+* [Autores](#autores)
 
 ## Instalación
 
 1. Clonar el repositorio:
-   git clone https://github.com/MonicaFernandezM/Vanguard1
+   ```bash
+   git clone [https://github.com/MonicaFernandezM/Vanguard-A-B-test](https://github.com/MonicaFernandezM/Vanguard-A-B-test)```
 2. Abrir el proyecto en Jupyter Notebook.
 3. Ejecutar el notebook principal para reproducir el análisis.
 
@@ -106,6 +110,12 @@ El proyecto incluye:
 * Cálculo de tamaño del efecto (Cohen’s h)
 * Análisis de potencia post-hoc
 * Cálculo de tamaño mínimo de muestra
+
+## Conclusiones
+
+- El nuevo diseño web mejora la conversión global y reduce sustancialmente el abandono en las fases intermedias del proceso.
+- Sin embargo, la fricción detectada en el paso final (“confirm”) y el hecho de no alcanzar el umbral de rentabilidad del 5% indican que se requieren optimizaciones de usabilidad antes de una implementación definitiva.
+- El impacto del cambio está estrechamente ligado a la edad, beneficiando de forma más directa al segmento de usuarios jóvenes.
 
 ## Resultados
 
